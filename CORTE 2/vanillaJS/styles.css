@@ -1,0 +1,58 @@
+.card {
+    max-width: 400px;
+    margin: 40px auto;
+    background: lightseagreen;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.1);
+
+}
+
+.avatar-container {
+    margin-bottom: 20px;
+
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description-container{
+    margin-bottom: 20px;
+}
+
+.contact-container{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.links-container a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.link-card {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background: lightgray;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.card ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
